@@ -11,6 +11,13 @@ Set health bar display[X]
 #first text ID in the free block
 Learned  [X]
 
+#0x484 EnergyRingDesc
+Increases Str by 2 points.[N]
+Vanishes after use.[X]
+
+#0x4C2 EnergyRingUseText
+Raises Strength.[X]
+
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
@@ -35,6 +42,41 @@ Rating[X]
 
 ## SS_RatingRText
 Sum of the unit's stats.[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[NL]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[NL]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[NL]
+for items and gold.[X]
+
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[NL]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[NL]
+by having this unit arrive.[X]
+
+## HouseText
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
 
 #include "skilldesc_text.txt"
 

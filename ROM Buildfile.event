@@ -1,7 +1,7 @@
 #ifdef _FE8_
 
     #include "EAstdlib.event"
-    #include "Engine Hacks/Skill System/skill_definitions.event"
+    #include "Engine Hacks/SkillSystem/skill_definitions.event"
     #include "Definitions/Custom Definitions.event"
     #include "_UserData/Customizations.event"
 
@@ -27,6 +27,7 @@
 
     //Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
+    #include "Engine Hacks/Extra Hacks.event"
 
     //World Map Events
     #include "World Map Events/World Map Events Installer.event"
@@ -37,6 +38,8 @@
 
     #undef TEXT_DEFINITIONS
     #undef TABLE_DEFINITIONS
+    #undef TEXT_INSTALLER_TEXT_BUILDFILE_TXT
+    #undef TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
     
     //User Data
     #include "_UserData/User Buildfile.event"

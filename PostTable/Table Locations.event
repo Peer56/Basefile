@@ -4,9 +4,9 @@
 //#ifndef ClassTable
   //#define ClassTable 0x807110
 //#endif
-#ifndef ItemTable
-  #define ItemTable 0x809B10
-#endif
+//#ifndef ItemTable
+  //#define ItemTable 0x809B10
+//#endif
 //#ifndef ClassAnimTable
     //#define ClassAnimTable (0xc00008-0x20)
 //#endif
@@ -22,21 +22,21 @@
 //#ifndef MovingMapSpriteTable
 	//#define MovingMapSpriteTable 0x9a2e00
 //#endif
-#ifndef ItemTargetTable
-	#define ItemTargetTable 0x28e8c
-#endif
-#ifndef ItemUsablityTable
-	#define ItemUsablityTable 0x288b0
-#endif
-#ifndef ItemEffectTable
-	#define ItemEffectTable 0x2fc90
-#endif
+//#ifndef ItemTargetTable
+	//#define ItemTargetTable 0x28e8c
+//#endif
+//#ifndef ItemUsablityTable
+	//#define ItemUsablityTable 0x288b0
+//#endif
+//#ifndef ItemEffectTable
+	//#define ItemEffectTable 0x2fc90
+//#endif
 //#ifndef SpellAssociationTable
 	//#define SpellAssociationTable 0x8afbd8
 //#endif
-#ifndef PromotionBranchTable
-	#define PromotionBranchTable 0x95DFA6
-#endif
+//#ifndef PromotionBranchTable
+	//#define PromotionBranchTable 0x95DFA6
+//#endif
 #ifndef ChapterDataTable
 	#define ChapterDataTable 0x8b0890
 #endif

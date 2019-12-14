@@ -37,9 +37,6 @@
   //Various Fixes
   #include "New Fixes.event"
 
-  //Modular EXP
-  #include "Modular EXP/Installer.event"
-
   #ifdef PoisonRework
   //Poison Rework
   #include "Poison Rework/Installer.event"
@@ -65,8 +62,29 @@
   //Class Expansion
   #include "ExpandedClassTable/Class Expansion.event"
 
+  //MNC2 Fix
+  #include "MNC2 Fix/MNC2FixTest.event"
+
+  //If Battle BGM = Map BGM, play without resetting
+  #include "ContinueBattleBGM/Installer.event"
+
+  //Fix Move with Leader AI
+  #include "LeadAI/LeadAiFix.event"
+
   //Allow CHAI to edit AI 3 and 4 as well
-  //#include "New CHAI/New CHAI.event"
+  #include "New CHAI/New CHAI.event"
+
+  //Set Prep Screen music per chapter
+  #include "Changing preparation BGM/EA.event"
+
+  //ASMC Check Suite
+  #include "ASMCCheckSuite/ASMC Check Installer.event"
+
+  //Change Chapter Objective Text
+  #include "ChangeChapterObjective/Installer.event"
+
+  //Item Effect Revamp
+  #include "ItemEffectRevamp/IERevamp_Installer.event"
 
   //Changes weapon ability bits
   // #include "Reaver and Double WTA Split/Installer.event"
